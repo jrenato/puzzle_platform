@@ -64,7 +64,7 @@
 
 # Not recommended to use, but supported:
 *.[mM][pP]3 filter=lfs diff=lfs merge=lfs -text
-* [wW][mM][aA] filter=lfs diff=lfs merge=lfs -text
+*.[wW][mM][aA] filter=lfs diff=lfs merge=lfs -text
 *.[aA][cC]3 filter=lfs diff=lfs merge=lfs -text
 *.[aA][mM][rR] filter=lfs diff=lfs merge=lfs -text
 *.[aA][iI][fF] filter=lfs diff=lfs merge=lfs -text
@@ -83,7 +83,7 @@
 # For the best compatibility and performance, it is recommended to use H.264 encoded MP4 (.mp4) container files.
 *.[mM][pP]4 filter=lfs diff=lfs merge=lfs -text
 
-Can also be used, only some platforms are supported:
+# Can also be used, only some platforms are supported:
 *.3[gG]2 filter=lfs diff=lfs merge=lfs -text
 *.3[gG][pP] filter=lfs diff=lfs merge=lfs -text
 *.3[gG][pP]2 filter=lfs diff=lfs merge=lfs -text
