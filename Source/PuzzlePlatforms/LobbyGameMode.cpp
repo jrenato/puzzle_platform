@@ -11,7 +11,7 @@ void ALobbyGameMode::PostLogin(APlayerController* NewPlayer)
 
     NumberOfPlayers++;
 
-    if (NumberOfPlayers == 3)
+    if (NumberOfPlayers == 2)
     {
         GetWorldTimerManager().SetTimer(TimerHandle, this, &ALobbyGameMode::StartGame, 5.0f);
     }
